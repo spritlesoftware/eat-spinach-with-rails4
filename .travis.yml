@@ -1,11 +1,9 @@
 language: ruby
-env:
-  matrix:
-    - TASK=spinach
-    - TASK=spec
 branches:
   only:
     - 'master'
 rvm:
   - 2.0.0
-script: "bundle exec rake $TASK --trace"
+script: "RAILS_ENV=test bundle exec rake --trace db:migrate spec spinach"
+cache:
+  bundler: true
