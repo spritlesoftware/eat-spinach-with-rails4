@@ -1,5 +1,7 @@
 ## Eat [Spinach](https://github.com/codegram/spinach) With Rails 4
 
+[![Build Status](https://travis-ci.org/spritlesoftware/eat-spinach-with-rails4.png)](https://travis-ci.org/spritlesoftware/eat-spinach-with-rails4)
+
 Demonstrate the way to spianch test the Posts Model, Article has_many Comments model.
 
 Built as part of weekly knowledge sharing activity at [Spritle.com](http://www.spritle.com)
